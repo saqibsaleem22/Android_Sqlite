@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView android:id="@+id/id_coche"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView android:id="@+id/modelo_coche"
+        android:layout_width="0px"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:textStyle="normal"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
